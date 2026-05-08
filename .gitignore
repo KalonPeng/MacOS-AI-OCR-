@@ -1,0 +1,58 @@
+# Xcode
+build/
+DerivedData/
+*.xcuserdata
+*.xcworkspace/xcuserdata/
+xcuserdata/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# 备份文件（含本地路径信息）
+backups/
+
+# 本地辅助脚本（含个人路径）
+quick_build.sh
+rebuild.sh
+rebuild
+install.sh
+generate_icon.swift
+generate_app_icon.py
+add_icon_to_project.py
+add_copy_icon_phase.py
+add_build_phase.py
+add_log_file.py
+update_build_script.py
+update_icon_from_png.sh
+fix_permissions.sh
+fix_all_permissions.sh
+check_app.sh
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# CodeBuddy
+.codebuddy/
+
+# 副本文件
+*副本*
+tech-share/presentation_vibe_optimized.html
+
+# 根目录演示文件（tech-share 里有完整版）
+/presentation.html
